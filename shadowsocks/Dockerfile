@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 LABEL maintainer="mritd <mritd1234@gmail.com>"
 
-ARG TZ='Asia/Shanghai'
+ARG TZ='Europe/Moscow'
 
 ENV TZ $TZ
 ENV SS_LIBEV_VERSION 3.2.0
